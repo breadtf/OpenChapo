@@ -1,4 +1,4 @@
-# OpenChapo
+# OpenChapo 🤖
 Open-Source discord AI chatbot using Ollama, based on the El Chapo bot from the WSE Discord Server.
 
 ## Setup
