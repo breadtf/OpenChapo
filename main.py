@@ -22,7 +22,7 @@ def getChapo(getMessage):
 
     # Send a POST request to the Ollama API endpoint
     try:
-        response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=15)
+        response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=config.timeout)
     except Exception as e:
         print(f"Error: {e}") 
         return "IDK"
